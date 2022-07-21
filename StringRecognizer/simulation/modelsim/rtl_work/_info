@@ -1,0 +1,129 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Study_Materials/SEM3/EE214/Week9/StringRecognizer/simulation/modelsim
+Edut
+Z1 w1633511962
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8D:/Study_Materials/SEM3/EE214/Week9/StringRecognizer/DUT.vhdl
+Z5 FD:/Study_Materials/SEM3/EE214/Week9/StringRecognizer/DUT.vhdl
+l0
+L4
+V:VSa]HK9lz^4f@PU_4g5b3
+!s100 5gC`mVWXY]c^dU^:c1@_H3
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1633518210
+!i10b 1
+Z8 !s108 1633518210.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/Study_Materials/SEM3/EE214/Week9/StringRecognizer/DUT.vhdl|
+Z10 !s107 D:/Study_Materials/SEM3/EE214/Week9/StringRecognizer/DUT.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 :VSa]HK9lz^4f@PU_4g5b3
+l16
+L9
+Va>Ja_VN[mGDPbk[<3kBS32
+!s100 L6o6=coB;S4?ICfB1ZnaC0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ekrypton
+Z13 w1633513558
+Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z15 8D:/Study_Materials/SEM3/EE214/Week9/StringRecognizer/StringRecognizer.vhdl
+Z16 FD:/Study_Materials/SEM3/EE214/Week9/StringRecognizer/StringRecognizer.vhdl
+l0
+L5
+V7Z>G4iOiSYhi900C@:d>;1
+!s100 8`TQITZN8L<P?PeFfL=_Z1
+R6
+31
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-93|-work|work|D:/Study_Materials/SEM3/EE214/Week9/StringRecognizer/StringRecognizer.vhdl|
+Z18 !s107 D:/Study_Materials/SEM3/EE214/Week9/StringRecognizer/StringRecognizer.vhdl|
+!i113 1
+R11
+R12
+Arch
+R14
+R2
+R3
+DEx4 work 7 krypton 0 22 7Z>G4iOiSYhi900C@:d>;1
+l18
+L11
+VCFjEoRNBEMQz8TRnaRk>92
+!s100 AjK5Q_77hB@Vm@5lOGE3^1
+R6
+31
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Etestbench
+Z19 w1633511974
+R3
+R2
+R0
+Z20 8D:/Study_Materials/SEM3/EE214/Week9/StringRecognizer/Testbench.vhdl
+Z21 FD:/Study_Materials/SEM3/EE214/Week9/StringRecognizer/Testbench.vhdl
+l0
+L8
+VR8ZoTJ_^115M<J3B1dlEK2
+!s100 Fn[oj5DY`m<8loJEL5IXi0
+R6
+31
+R7
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-93|-work|work|D:/Study_Materials/SEM3/EE214/Week9/StringRecognizer/Testbench.vhdl|
+Z23 !s107 D:/Study_Materials/SEM3/EE214/Week9/StringRecognizer/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 R8ZoTJ_^115M<J3B1dlEK2
+l70
+L10
+VAm?izo9U4=e94ecWUb:?A2
+!s100 kQAnc2;[Gdib7W2;zdaXh2
+R6
+31
+R7
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12

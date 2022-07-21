@@ -1,0 +1,733 @@
+|DUT
+input_vector[0] => atm:add_instance.d[0]
+input_vector[1] => atm:add_instance.d[1]
+input_vector[2] => atm:add_instance.d[2]
+input_vector[3] => atm:add_instance.d[3]
+input_vector[4] => atm:add_instance.d[4]
+input_vector[5] => atm:add_instance.d[5]
+input_vector[6] => atm:add_instance.d[6]
+input_vector[7] => atm:add_instance.d[7]
+output_vector[0] << atm:add_instance.c0
+output_vector[1] << atm:add_instance.c1
+output_vector[2] << atm:add_instance.c2
+output_vector[3] << atm:add_instance.c3
+output_vector[4] << atm:add_instance.c4
+output_vector[5] << atm:add_instance.c5
+output_vector[6] << atm:add_instance.b
+output_vector[7] << atm:add_instance.a0
+output_vector[8] << atm:add_instance.a1
+output_vector[9] << atm:add_instance.p0
+output_vector[10] << atm:add_instance.p1
+
+
+|DUT|atm:add_instance
+d[0] => div:div1.Nu[0]
+d[0] => OR_8:o8.H
+d[1] => div:div1.Nu[1]
+d[1] => OR_8:o8.G
+d[2] => div:div1.Nu[2]
+d[2] => OR_8:o8.F
+d[3] => div:div1.Nu[3]
+d[3] => OR_8:o8.E
+d[4] => div:div1.Nu[4]
+d[4] => OR_8:o8.D
+d[5] => div:div1.Nu[5]
+d[5] => OR_8:o8.C
+d[6] => div:div1.Nu[6]
+d[6] => OR_8:o8.B
+d[7] => div:div1.Nu[7]
+d[7] => OR_8:o8.A
+p1 <= OR_3:o1.Y
+p0 <= MUX2to1:m.Y
+b <= MUX2to1:m1.Y
+a1 <= MUX2to1:m2.Y
+a0 <= MUX2to1:m3.Y
+c5 <= MUX2to1:m4.Y
+c4 <= MUX2to1:m5.Y
+c3 <= MUX2to1:m6.Y
+c2 <= MUX2to1:m7.Y
+c1 <= MUX2to1:m8.Y
+c0 <= MUX2to1:m9.Y
+
+
+|DUT|atm:add_instance|div:div1
+Nu[0] => borrow.IN0
+Nu[0] => borrow.IN0
+Nu[0] => pr.DATAA
+Nu[1] => borrow.IN0
+Nu[1] => borrow.IN0
+Nu[1] => \division:pr[7][8].DATAA
+Nu[2] => borrow.IN0
+Nu[2] => borrow.IN0
+Nu[2] => \division:pr[6][8].DATAA
+Nu[3] => borrow.IN0
+Nu[3] => borrow.IN0
+Nu[3] => \division:pr[5][8].DATAA
+Nu[4] => borrow.IN0
+Nu[4] => borrow.IN0
+Nu[4] => \division:pr[4][8].DATAA
+Nu[5] => borrow.IN0
+Nu[5] => borrow.IN0
+Nu[5] => \division:pr[3][8].DATAA
+Nu[6] => borrow.IN0
+Nu[6] => borrow.IN0
+Nu[6] => \division:pr[2][8].DATAA
+Nu[7] => diff.IN0
+Nu[7] => borrow.IN0
+Nu[7] => \division:pr[1][8].DATAA
+D[0] => diff.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[1] => diff.IN1
+D[1] => borrow.IN1
+D[1] => diff.IN1
+D[1] => borrow.IN1
+D[1] => borrow.IN1
+D[1] => borrow.IN1
+D[1] => borrow.IN1
+D[1] => borrow.IN1
+D[1] => borrow.IN1
+D[1] => borrow.IN1
+D[1] => borrow.IN1
+D[1] => borrow.IN1
+D[1] => borrow.IN1
+D[1] => borrow.IN1
+D[1] => borrow.IN1
+D[1] => borrow.IN1
+D[2] => diff.IN1
+D[2] => borrow.IN1
+D[2] => borrow.IN1
+D[2] => borrow.IN1
+D[2] => diff.IN1
+D[2] => borrow.IN1
+D[2] => borrow.IN1
+D[2] => borrow.IN1
+D[2] => borrow.IN1
+D[2] => borrow.IN1
+D[2] => borrow.IN1
+D[2] => borrow.IN1
+D[2] => borrow.IN1
+D[2] => borrow.IN1
+D[2] => borrow.IN1
+D[2] => borrow.IN1
+D[3] => diff.IN1
+D[3] => borrow.IN1
+D[3] => borrow.IN1
+D[3] => borrow.IN1
+D[3] => borrow.IN1
+D[3] => borrow.IN1
+D[3] => diff.IN1
+D[3] => borrow.IN1
+D[3] => borrow.IN1
+D[3] => borrow.IN1
+D[3] => borrow.IN1
+D[3] => borrow.IN1
+D[3] => borrow.IN1
+D[3] => borrow.IN1
+D[3] => borrow.IN1
+D[3] => borrow.IN1
+D[4] => diff.IN1
+D[4] => borrow.IN1
+D[4] => borrow.IN1
+D[4] => borrow.IN1
+D[4] => borrow.IN1
+D[4] => borrow.IN1
+D[4] => borrow.IN1
+D[4] => borrow.IN1
+D[4] => diff.IN1
+D[4] => borrow.IN1
+D[4] => borrow.IN1
+D[4] => borrow.IN1
+D[4] => borrow.IN1
+D[4] => borrow.IN1
+D[4] => borrow.IN1
+D[4] => borrow.IN1
+D[5] => diff.IN1
+D[5] => borrow.IN1
+D[5] => borrow.IN1
+D[5] => borrow.IN1
+D[5] => borrow.IN1
+D[5] => borrow.IN1
+D[5] => borrow.IN1
+D[5] => borrow.IN1
+D[5] => borrow.IN1
+D[5] => borrow.IN1
+D[5] => diff.IN1
+D[5] => borrow.IN1
+D[5] => borrow.IN1
+D[5] => borrow.IN1
+D[5] => borrow.IN1
+D[5] => borrow.IN1
+D[6] => diff.IN1
+D[6] => borrow.IN1
+D[6] => borrow.IN1
+D[6] => borrow.IN1
+D[6] => borrow.IN1
+D[6] => borrow.IN1
+D[6] => borrow.IN1
+D[6] => borrow.IN1
+D[6] => borrow.IN1
+D[6] => borrow.IN1
+D[6] => borrow.IN1
+D[6] => borrow.IN1
+D[6] => diff.IN1
+D[6] => borrow.IN1
+D[6] => borrow.IN1
+D[6] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => diff.IN1
+D[7] => borrow.IN1
+RQ[0] <= borrow.DB_MAX_OUTPUT_PORT_TYPE
+RQ[1] <= borrow.DB_MAX_OUTPUT_PORT_TYPE
+RQ[2] <= borrow.DB_MAX_OUTPUT_PORT_TYPE
+RQ[3] <= borrow.DB_MAX_OUTPUT_PORT_TYPE
+RQ[4] <= borrow.DB_MAX_OUTPUT_PORT_TYPE
+RQ[5] <= borrow.DB_MAX_OUTPUT_PORT_TYPE
+RQ[6] <= borrow.DB_MAX_OUTPUT_PORT_TYPE
+RQ[7] <= borrow.DB_MAX_OUTPUT_PORT_TYPE
+RQ[8] <= pr.DB_MAX_OUTPUT_PORT_TYPE
+RQ[9] <= pr.DB_MAX_OUTPUT_PORT_TYPE
+RQ[10] <= pr.DB_MAX_OUTPUT_PORT_TYPE
+RQ[11] <= pr.DB_MAX_OUTPUT_PORT_TYPE
+RQ[12] <= pr.DB_MAX_OUTPUT_PORT_TYPE
+RQ[13] <= pr.DB_MAX_OUTPUT_PORT_TYPE
+RQ[14] <= pr.DB_MAX_OUTPUT_PORT_TYPE
+RQ[15] <= pr.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|div:div2
+Nu[0] => borrow.IN0
+Nu[0] => borrow.IN0
+Nu[0] => pr.DATAA
+Nu[1] => borrow.IN0
+Nu[1] => borrow.IN0
+Nu[1] => \division:pr[7][8].DATAA
+Nu[2] => borrow.IN0
+Nu[2] => borrow.IN0
+Nu[2] => \division:pr[6][8].DATAA
+Nu[3] => borrow.IN0
+Nu[3] => borrow.IN0
+Nu[3] => \division:pr[5][8].DATAA
+Nu[4] => borrow.IN0
+Nu[4] => borrow.IN0
+Nu[4] => \division:pr[4][8].DATAA
+Nu[5] => borrow.IN0
+Nu[5] => borrow.IN0
+Nu[5] => \division:pr[3][8].DATAA
+Nu[6] => borrow.IN0
+Nu[6] => borrow.IN0
+Nu[6] => \division:pr[2][8].DATAA
+Nu[7] => diff.IN0
+Nu[7] => borrow.IN0
+Nu[7] => \division:pr[1][8].DATAA
+D[0] => diff.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[0] => borrow.IN1
+D[1] => diff.IN1
+D[1] => borrow.IN1
+D[1] => diff.IN1
+D[1] => borrow.IN1
+D[1] => borrow.IN1
+D[1] => borrow.IN1
+D[1] => borrow.IN1
+D[1] => borrow.IN1
+D[1] => borrow.IN1
+D[1] => borrow.IN1
+D[1] => borrow.IN1
+D[1] => borrow.IN1
+D[1] => borrow.IN1
+D[1] => borrow.IN1
+D[1] => borrow.IN1
+D[1] => borrow.IN1
+D[2] => diff.IN1
+D[2] => borrow.IN1
+D[2] => borrow.IN1
+D[2] => borrow.IN1
+D[2] => diff.IN1
+D[2] => borrow.IN1
+D[2] => borrow.IN1
+D[2] => borrow.IN1
+D[2] => borrow.IN1
+D[2] => borrow.IN1
+D[2] => borrow.IN1
+D[2] => borrow.IN1
+D[2] => borrow.IN1
+D[2] => borrow.IN1
+D[2] => borrow.IN1
+D[2] => borrow.IN1
+D[3] => diff.IN1
+D[3] => borrow.IN1
+D[3] => borrow.IN1
+D[3] => borrow.IN1
+D[3] => borrow.IN1
+D[3] => borrow.IN1
+D[3] => diff.IN1
+D[3] => borrow.IN1
+D[3] => borrow.IN1
+D[3] => borrow.IN1
+D[3] => borrow.IN1
+D[3] => borrow.IN1
+D[3] => borrow.IN1
+D[3] => borrow.IN1
+D[3] => borrow.IN1
+D[3] => borrow.IN1
+D[4] => diff.IN1
+D[4] => borrow.IN1
+D[4] => borrow.IN1
+D[4] => borrow.IN1
+D[4] => borrow.IN1
+D[4] => borrow.IN1
+D[4] => borrow.IN1
+D[4] => borrow.IN1
+D[4] => diff.IN1
+D[4] => borrow.IN1
+D[4] => borrow.IN1
+D[4] => borrow.IN1
+D[4] => borrow.IN1
+D[4] => borrow.IN1
+D[4] => borrow.IN1
+D[4] => borrow.IN1
+D[5] => diff.IN1
+D[5] => borrow.IN1
+D[5] => borrow.IN1
+D[5] => borrow.IN1
+D[5] => borrow.IN1
+D[5] => borrow.IN1
+D[5] => borrow.IN1
+D[5] => borrow.IN1
+D[5] => borrow.IN1
+D[5] => borrow.IN1
+D[5] => diff.IN1
+D[5] => borrow.IN1
+D[5] => borrow.IN1
+D[5] => borrow.IN1
+D[5] => borrow.IN1
+D[5] => borrow.IN1
+D[6] => diff.IN1
+D[6] => borrow.IN1
+D[6] => borrow.IN1
+D[6] => borrow.IN1
+D[6] => borrow.IN1
+D[6] => borrow.IN1
+D[6] => borrow.IN1
+D[6] => borrow.IN1
+D[6] => borrow.IN1
+D[6] => borrow.IN1
+D[6] => borrow.IN1
+D[6] => borrow.IN1
+D[6] => diff.IN1
+D[6] => borrow.IN1
+D[6] => borrow.IN1
+D[6] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => borrow.IN1
+D[7] => diff.IN1
+D[7] => borrow.IN1
+RQ[0] <= borrow.DB_MAX_OUTPUT_PORT_TYPE
+RQ[1] <= borrow.DB_MAX_OUTPUT_PORT_TYPE
+RQ[2] <= borrow.DB_MAX_OUTPUT_PORT_TYPE
+RQ[3] <= borrow.DB_MAX_OUTPUT_PORT_TYPE
+RQ[4] <= borrow.DB_MAX_OUTPUT_PORT_TYPE
+RQ[5] <= borrow.DB_MAX_OUTPUT_PORT_TYPE
+RQ[6] <= borrow.DB_MAX_OUTPUT_PORT_TYPE
+RQ[7] <= borrow.DB_MAX_OUTPUT_PORT_TYPE
+RQ[8] <= pr.DB_MAX_OUTPUT_PORT_TYPE
+RQ[9] <= pr.DB_MAX_OUTPUT_PORT_TYPE
+RQ[10] <= pr.DB_MAX_OUTPUT_PORT_TYPE
+RQ[11] <= pr.DB_MAX_OUTPUT_PORT_TYPE
+RQ[12] <= pr.DB_MAX_OUTPUT_PORT_TYPE
+RQ[13] <= pr.DB_MAX_OUTPUT_PORT_TYPE
+RQ[14] <= pr.DB_MAX_OUTPUT_PORT_TYPE
+RQ[15] <= pr.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m1
+In0 => AND_2:aN2.A
+In1 => AND_2:aN1.A
+S => INVERTER:i0.A
+S => AND_2:aN1.B
+Y <= OR_2:o1.Y
+
+
+|DUT|atm:add_instance|MUX2to1:m1|INVERTER:i0
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m1|AND_2:aN2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m1|AND_2:aN1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m1|OR_2:o1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m2
+In0 => AND_2:aN2.A
+In1 => AND_2:aN1.A
+S => INVERTER:i0.A
+S => AND_2:aN1.B
+Y <= OR_2:o1.Y
+
+
+|DUT|atm:add_instance|MUX2to1:m2|INVERTER:i0
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m2|AND_2:aN2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m2|AND_2:aN1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m2|OR_2:o1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m3
+In0 => AND_2:aN2.A
+In1 => AND_2:aN1.A
+S => INVERTER:i0.A
+S => AND_2:aN1.B
+Y <= OR_2:o1.Y
+
+
+|DUT|atm:add_instance|MUX2to1:m3|INVERTER:i0
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m3|AND_2:aN2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m3|AND_2:aN1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m3|OR_2:o1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m4
+In0 => AND_2:aN2.A
+In1 => AND_2:aN1.A
+S => INVERTER:i0.A
+S => AND_2:aN1.B
+Y <= OR_2:o1.Y
+
+
+|DUT|atm:add_instance|MUX2to1:m4|INVERTER:i0
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m4|AND_2:aN2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m4|AND_2:aN1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m4|OR_2:o1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m5
+In0 => AND_2:aN2.A
+In1 => AND_2:aN1.A
+S => INVERTER:i0.A
+S => AND_2:aN1.B
+Y <= OR_2:o1.Y
+
+
+|DUT|atm:add_instance|MUX2to1:m5|INVERTER:i0
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m5|AND_2:aN2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m5|AND_2:aN1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m5|OR_2:o1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m6
+In0 => AND_2:aN2.A
+In1 => AND_2:aN1.A
+S => INVERTER:i0.A
+S => AND_2:aN1.B
+Y <= OR_2:o1.Y
+
+
+|DUT|atm:add_instance|MUX2to1:m6|INVERTER:i0
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m6|AND_2:aN2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m6|AND_2:aN1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m6|OR_2:o1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m7
+In0 => AND_2:aN2.A
+In1 => AND_2:aN1.A
+S => INVERTER:i0.A
+S => AND_2:aN1.B
+Y <= OR_2:o1.Y
+
+
+|DUT|atm:add_instance|MUX2to1:m7|INVERTER:i0
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m7|AND_2:aN2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m7|AND_2:aN1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m7|OR_2:o1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m8
+In0 => AND_2:aN2.A
+In1 => AND_2:aN1.A
+S => INVERTER:i0.A
+S => AND_2:aN1.B
+Y <= OR_2:o1.Y
+
+
+|DUT|atm:add_instance|MUX2to1:m8|INVERTER:i0
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m8|AND_2:aN2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m8|AND_2:aN1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m8|OR_2:o1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m9
+In0 => AND_2:aN2.A
+In1 => AND_2:aN1.A
+S => INVERTER:i0.A
+S => AND_2:aN1.B
+Y <= OR_2:o1.Y
+
+
+|DUT|atm:add_instance|MUX2to1:m9|INVERTER:i0
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m9|AND_2:aN2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m9|AND_2:aN1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m9|OR_2:o1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|INVERTER:i1
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|OR_8:o8
+A => Y.IN0
+B => Y.IN1
+C => Y.IN1
+D => Y.IN1
+E => Y.IN1
+F => Y.IN1
+G => Y.IN1
+H => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|OR_3:o1
+A => Y.IN0
+B => Y.IN1
+C => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|OR_3:or2
+A => Y.IN0
+B => Y.IN1
+C => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m
+In0 => AND_2:aN2.A
+In1 => AND_2:aN1.A
+S => INVERTER:i0.A
+S => AND_2:aN1.B
+Y <= OR_2:o1.Y
+
+
+|DUT|atm:add_instance|MUX2to1:m|INVERTER:i0
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m|AND_2:aN2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m|AND_2:aN1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|atm:add_instance|MUX2to1:m|OR_2:o1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

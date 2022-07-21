@@ -1,0 +1,540 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Study_Materials/SEM3/EE214/Experiment2/Scrabble/simulation/modelsim
+Eand_2
+Z1 w1629275816
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8D:/Study_Materials/SEM3/EE214/Experiment2/Scrabble/Gates.vhdl
+Z5 FD:/Study_Materials/SEM3/EE214/Experiment2/Scrabble/Gates.vhdl
+l0
+L60
+V^RP?iTF_@REfmO]1E2`z?2
+!s100 @VgF`Iz;mm9DATPHGP3aL0
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1629280424
+!i10b 1
+Z8 !s108 1629280424.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/Study_Materials/SEM3/EE214/Experiment2/Scrabble/Gates.vhdl|
+Z10 !s107 D:/Study_Materials/SEM3/EE214/Experiment2/Scrabble/Gates.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aequations
+R2
+R3
+DEx4 work 5 and_2 0 22 ^RP?iTF_@REfmO]1E2`z?2
+l65
+L64
+Vbnh963fWd?[?ieGozSFeR0
+!s100 <P1G2;2m_WdeA?W@N5:J[0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eand_3
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L71
+VXk2l`o1YchcQPBd3WEIez1
+!s100 ES2@?bJ`m^>1fSb<_a1143
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 and_3 0 22 Xk2l`o1YchcQPBd3WEIez1
+l76
+L75
+VW<iz>8Q]5U3Be8A0cn7W<2
+!s100 ?kC2`dhX@m1HlzFlj3JSd0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edut
+Z13 w1629279319
+R2
+R3
+R0
+Z14 8D:/Study_Materials/SEM3/EE214/Experiment2/Scrabble/DUT.vhdl
+Z15 FD:/Study_Materials/SEM3/EE214/Experiment2/Scrabble/DUT.vhdl
+l0
+L5
+VOU<4N74jQ?TMemKZ1ToDz3
+!s100 TPngP^6P=cK`UCWX29bUD3
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|D:/Study_Materials/SEM3/EE214/Experiment2/Scrabble/DUT.vhdl|
+Z17 !s107 D:/Study_Materials/SEM3/EE214/Experiment2/Scrabble/DUT.vhdl|
+!i113 1
+R11
+R12
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 OU<4N74jQ?TMemKZ1ToDz3
+l14
+L10
+VWgCCY2Q`a^EAK^dS3<KMQ0
+!s100 Qza<3LSZXh<l:_5gI6ePj1
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Pgates
+R2
+R3
+R1
+R0
+R4
+R5
+l0
+L3
+VzlF:Z^L2DH>:YCWn3YTkW3
+!s100 Me^:QJcIzLF7<Hzo`mi^m0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ehalf_adder
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L149
+VV:Ba_4OFWlL0fI9mC5Ogm3
+!s100 ZMZ8`PONLh2K_ml9@eXY<0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 10 half_adder 0 22 V:Ba_4OFWlL0fI9mC5Ogm3
+l154
+L153
+VXCU5:Z7Q96]m@]k7FENHE3
+!s100 z5LWidb?h[SRK6_jIeE;o1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Einverter
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L48
+VMbe=JI140:]A39Cge4@zV2
+!s100 dzBZKYO1jm<cH`M>[a0>_0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 8 inverter 0 22 Mbe=JI140:]A39Cge4@zV2
+l53
+L52
+V^ab9lM`cBC2U:agNoT;lm3
+!s100 S;_WzlSzUSCi@g`F5Ncna0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Enand_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L82
+VKgP=jK^Yc5nkP0jEaBfZJ1
+!s100 186g7[CmaOQ@51KTl4K111
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 nand_2 0 22 KgP=jK^Yc5nkP0jEaBfZJ1
+l87
+L86
+V^BWjEPJjFDMin:6ED7kdG3
+!s100 J4eN[S>1oEXD_nI1POo=`2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Enor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L115
+VW]LzHBMH`>8?d`IXG;DA:3
+!s100 _QQ]Ln6Q41]USV3eIYYDa3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 nor_2 0 22 W]LzHBMH`>8?d`IXG;DA:3
+l120
+L119
+V3?8h`mf;b1MI9MEVlh?m=0
+!s100 IG=]8IJ4ZeAn`@```XohE2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L93
+VjfcY7eKzaC@?PYkBJKoeb2
+!s100 K5:R>U4Ki@D0T^HJ<BVRb1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 4 or_2 0 22 jfcY7eKzaC@?PYkBJKoeb2
+l98
+L97
+VANoH]GaMeWI?0Pkof3h@V3
+!s100 TnJHDZ1d9g<=3L]<c[nU50
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eor_4
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L104
+VUn[4@XDbOk3dE@2VDLPTo3
+!s100 a:JBO_DfX?i4@kFWYol>11
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 4 or_4 0 22 Un[4@XDbOk3dE@2VDLPTo3
+l109
+L108
+Vl=dPKE;K[]V?05Bk?8l4o2
+!s100 JlLBc8TKaNB@PSRX7TL?c3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Escrabble
+Z18 w1629278688
+Z19 DPx4 work 5 gates 0 22 zlF:Z^L2DH>:YCWn3YTkW3
+R2
+R3
+R0
+Z20 8D:/Study_Materials/SEM3/EE214/Experiment2/Scrabble/Scrabble.vhdl
+Z21 FD:/Study_Materials/SEM3/EE214/Experiment2/Scrabble/Scrabble.vhdl
+l0
+L5
+V3XNz_CdLPDX:klO5MU5Mf3
+!s100 JJZoK9zJ[lEVoPkXCG<5S3
+R6
+31
+Z22 !s110 1629280425
+!i10b 1
+R8
+Z23 !s90 -reportprogress|300|-93|-work|work|D:/Study_Materials/SEM3/EE214/Experiment2/Scrabble/Scrabble.vhdl|
+Z24 !s107 D:/Study_Materials/SEM3/EE214/Experiment2/Scrabble/Scrabble.vhdl|
+!i113 1
+R11
+R12
+Astruct
+R19
+R2
+R3
+DEx4 work 8 scrabble 0 22 3XNz_CdLPDX:klO5MU5Mf3
+l10
+L8
+Vh>>TfFm:fT:h5BTfbzB?A0
+!s100 HiZ41iho>M]]=NE@kPO=f1
+R6
+31
+R22
+!i10b 1
+R8
+R23
+R24
+!i113 1
+R11
+R12
+Etestbench
+Z25 w1629279861
+R3
+R2
+R0
+Z26 8D:/Study_Materials/SEM3/EE214/Experiment2/Scrabble/Testbench.vhdl
+Z27 FD:/Study_Materials/SEM3/EE214/Experiment2/Scrabble/Testbench.vhdl
+l0
+L7
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R6
+31
+R22
+!i10b 1
+Z28 !s108 1629280425.000000
+Z29 !s90 -reportprogress|300|-93|-work|work|D:/Study_Materials/SEM3/EE214/Experiment2/Scrabble/Testbench.vhdl|
+Z30 !s107 D:/Study_Materials/SEM3/EE214/Experiment2/Scrabble/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+l69
+L9
+V5LaH23NoWYVYk@?]>8Ioh2
+!s100 Tm@e]ZBRQzN[?kEJn7miA2
+R6
+31
+R22
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R11
+R12
+Exnor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L138
+VXBk:l1Ea1RNBSTY[Z76@72
+!s100 JdWCmedEF1`YOLOH=XL3S3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 xnor_2 0 22 XBk:l1Ea1RNBSTY[Z76@72
+l143
+L142
+VVG]^49BcJ`_3POXQYcf=Q2
+!s100 ofT[>Bzg=`]mRc`f`P^1:2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Exor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L127
+V]5Aib9W@2g?i5I]OZdIJd0
+!s100 Fc]ZMIaRz6KidaH79nOgm2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 xor_2 0 22 ]5Aib9W@2g?i5I]OZdIJd0
+l132
+L131
+V[lUf8=@V^l2N^WNC1ESEm3
+!s100 _Y5TzL:E`L884UO@Ec2`O3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12

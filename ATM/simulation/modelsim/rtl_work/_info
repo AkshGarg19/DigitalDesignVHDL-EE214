@@ -1,0 +1,620 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Study_Materials/SEM3/EE214/Midsem/ATM/simulation/modelsim
+Eand_2
+Z1 w1632029815
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8D:/Study_Materials/SEM3/EE214/Midsem/ATM/Gates.vhd
+Z5 FD:/Study_Materials/SEM3/EE214/Midsem/ATM/Gates.vhd
+l0
+L61
+VhNc4o@4iWJ5J]^KE3l>Sg2
+!s100 FVPgla4Lk4NdUm:Oj9;m<2
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1632035666
+!i10b 1
+Z8 !s108 1632035666.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/Study_Materials/SEM3/EE214/Midsem/ATM/Gates.vhd|
+Z10 !s107 D:/Study_Materials/SEM3/EE214/Midsem/ATM/Gates.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aequations
+R2
+R3
+DEx4 work 5 and_2 0 22 hNc4o@4iWJ5J]^KE3l>Sg2
+l66
+L65
+V11ZJFzFOkM[^BUcJhHokb3
+!s100 jXIFgll?X3>1kO;@C5UlN2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eatm
+Z13 w1632032961
+Z14 DPx4 work 5 gates 0 22 bBN;?C=^?QdeU=OfM^jC`2
+R2
+R3
+R0
+Z15 8D:/Study_Materials/SEM3/EE214/Midsem/ATM/atm.vhd
+Z16 FD:/Study_Materials/SEM3/EE214/Midsem/ATM/atm.vhd
+l0
+L12
+VjLgDZAc08RGB>jjVZhN>m3
+!s100 ]MSOW@hJdo8kSJGI4Q5Lm1
+R6
+31
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-93|-work|work|D:/Study_Materials/SEM3/EE214/Midsem/ATM/atm.vhd|
+Z18 !s107 D:/Study_Materials/SEM3/EE214/Midsem/ATM/atm.vhd|
+!i113 1
+R11
+R12
+Astruct
+R14
+R2
+R3
+DEx4 work 3 atm 0 22 jLgDZAc08RGB>jjVZhN>m3
+l37
+L16
+VPe]7CO^zKafn743LYEY5C3
+!s100 X84b1Z4T;MF76fZ[M`eaz2
+R6
+31
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Ediv
+Z19 w1632025501
+R2
+R3
+R0
+Z20 8D:/Study_Materials/SEM3/EE214/Midsem/ATM/div.vhd
+Z21 FD:/Study_Materials/SEM3/EE214/Midsem/ATM/div.vhd
+l0
+L15
+Vng:zV@0gDc?MfnEIKj`Yh1
+!s100 >6NO]2EnM6V2`4iE=5XUm2
+R6
+31
+R7
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-93|-work|work|D:/Study_Materials/SEM3/EE214/Midsem/ATM/div.vhd|
+Z23 !s107 D:/Study_Materials/SEM3/EE214/Midsem/ATM/div.vhd|
+!i113 1
+R11
+R12
+Abeh
+R2
+R3
+DEx4 work 3 div 0 22 ng:zV@0gDc?MfnEIKj`Yh1
+l50
+L27
+VD<@L9YD64=iMC:b_9SYbL1
+!s100 @iz[UfeV^[FjQ672RZB?_2
+R6
+31
+R7
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12
+Edut
+Z24 w1632032811
+R2
+R3
+R0
+Z25 8D:/Study_Materials/SEM3/EE214/Midsem/ATM/DUT.vhdl
+Z26 FD:/Study_Materials/SEM3/EE214/Midsem/ATM/DUT.vhdl
+l0
+L3
+V4F8c=HK`VYW0]Hz=Y23;L2
+!s100 ;kLFka[C>m]F1:CEo_0BG2
+R6
+31
+R7
+!i10b 1
+R8
+Z27 !s90 -reportprogress|300|-93|-work|work|D:/Study_Materials/SEM3/EE214/Midsem/ATM/DUT.vhdl|
+Z28 !s107 D:/Study_Materials/SEM3/EE214/Midsem/ATM/DUT.vhdl|
+!i113 1
+R11
+R12
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 4F8c=HK`VYW0]Hz=Y23;L2
+l12
+L8
+Vb:Q`gzQ:gZ>JZ__6OI_lo2
+!s100 NQETNi]Yjn_5P9L<GfV`h3
+R6
+31
+R7
+!i10b 1
+R8
+R27
+R28
+!i113 1
+R11
+R12
+Pgates
+R2
+R3
+R1
+R0
+R4
+R5
+l0
+L3
+VbBN;?C=^?QdeU=OfM^jC`2
+!s100 ]_HPN87RBY5H=b9A5[LS43
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ehalf_adder
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L150
+V;i^hciIB_6IjnQ7k:JVf32
+!s100 =og@m:1GFGGj_g9ke[ZMn3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 10 half_adder 0 22 ;i^hciIB_6IjnQ7k:JVf32
+l155
+L154
+V8d`>bAiGKW@l>kIR=<ae<3
+!s100 cHe=k:l4ZaBHJ^B0FRcnI2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Einverter
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L49
+V7fcMed?T;XLOf@iUiVH0J3
+!s100 nm@B]fH[YTmBzodc<J6Fd0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 8 inverter 0 22 7fcMed?T;XLOf@iUiVH0J3
+l54
+L53
+ViEj6>@[_cdnPG57f`38gN0
+!s100 ng@eWOg`K@B>S=;0A4Aff0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Emux2to1
+Z29 w1632030709
+R14
+R2
+R3
+R0
+Z30 8D:/Study_Materials/SEM3/EE214/Midsem/ATM/mux2to1.vhdl
+Z31 FD:/Study_Materials/SEM3/EE214/Midsem/ATM/mux2to1.vhdl
+l0
+L5
+VZmMCmbK06XQdlOmQKVHgB3
+!s100 9P`;V5cNW5M1V4Bo0S6`X0
+R6
+31
+R7
+!i10b 1
+R8
+Z32 !s90 -reportprogress|300|-93|-work|work|D:/Study_Materials/SEM3/EE214/Midsem/ATM/mux2to1.vhdl|
+Z33 !s107 D:/Study_Materials/SEM3/EE214/Midsem/ATM/mux2to1.vhdl|
+!i113 1
+R11
+R12
+Astruct
+R14
+R2
+R3
+DEx4 work 7 mux2to1 0 22 ZmMCmbK06XQdlOmQKVHgB3
+l10
+L8
+V52hcMfYI1@TR;zAz`[^<?1
+!s100 FFVYB3X31l>]WHb1aWPFP2
+R6
+31
+R7
+!i10b 1
+R8
+R32
+R33
+!i113 1
+R11
+R12
+Enand_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L72
+VKRG[iBY9[kCd;o^gm31`73
+!s100 I:Dl7Y;AjdGFmO`6m<XAb2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 nand_2 0 22 KRG[iBY9[kCd;o^gm31`73
+l77
+L76
+VlD^?H=LJkIbY<E@HX9Y6Q2
+!s100 U?DoYM<zHg@]G3j7E9Qfa1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Enor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L116
+V5VIEXm9^;2B;FCTF]gQG52
+!s100 >5`?Yn8aIKKQFR8@C]?W=3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 nor_2 0 22 5VIEXm9^;2B;FCTF]gQG52
+l121
+L120
+Vf;DC]O8]O`T_g2lW;8TVS0
+!s100 5CnG:U43X4`bUNH==8z0;2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L83
+VL:hWQJZSSzNdF3gHZ_<VT0
+!s100 IChB]FQJ]54S_ejJ9lnCX0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 4 or_2 0 22 L:hWQJZSSzNdF3gHZ_<VT0
+l88
+L87
+VIV1lz9KCNjzb6Lfmc=dm81
+!s100 [H0dA?YbeQ9_ZUCdlIW[o1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eor_3
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L94
+V0Zmn7C^^enJ:dc;[W?Ink1
+!s100 0nllc=8fB9ke>AmZ`aHX?0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 4 or_3 0 22 0Zmn7C^^enJ:dc;[W?Ink1
+l99
+L98
+V]78N]fPT6[g8^`C?O1d:f1
+!s100 CR>jnh=;YR;O3gPhYcg4Q1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eor_8
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L105
+V2lzlEF9Z[Lj5_K2dYYB:11
+!s100 J^ND59A8;;JB<z4O?Eb>I0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 4 or_8 0 22 2lzlEF9Z[Lj5_K2dYYB:11
+l110
+L109
+V[Imo]B]S?SBS3obTE6HCj3
+!s100 `QV^kMl>W7oGlb=b2Cj=o1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etestbench
+Z34 w1632033169
+R3
+R2
+R0
+Z35 8D:/Study_Materials/SEM3/EE214/Midsem/ATM/Testbench.vhdl
+Z36 FD:/Study_Materials/SEM3/EE214/Midsem/ATM/Testbench.vhdl
+l0
+L8
+VR8ZoTJ_^115M<J3B1dlEK2
+!s100 Fn[oj5DY`m<8loJEL5IXi0
+R6
+31
+R7
+!i10b 1
+R8
+Z37 !s90 -reportprogress|300|-93|-work|work|D:/Study_Materials/SEM3/EE214/Midsem/ATM/Testbench.vhdl|
+Z38 !s107 D:/Study_Materials/SEM3/EE214/Midsem/ATM/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 R8ZoTJ_^115M<J3B1dlEK2
+l70
+L10
+V_kL^0nf_C9b]D7Hf3i_Z80
+!s100 ZDA0FghJPO^Jc0iPVo3?O1
+R6
+31
+R7
+!i10b 1
+R8
+R37
+R38
+!i113 1
+R11
+R12
+Exnor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L139
+VcHj3PEj10mmW@[`QNj]VF2
+!s100 MBDTezKJ=W7F^Ic`mzad81
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 6 xnor_2 0 22 cHj3PEj10mmW@[`QNj]VF2
+l144
+L143
+VZ=18@nnZg;<U?h72lA<752
+!s100 UjI]YRd>QAY7T3XG]nmL82
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Exor_2
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L128
+V64GzR<cXdB_:b>BkdKMGY0
+!s100 PS1I628oWaH<<>A0SLJKC3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Aequations
+R2
+R3
+DEx4 work 5 xor_2 0 22 64GzR<cXdB_:b>BkdKMGY0
+l133
+L132
+Vbc?k?Lh[BU]OA:_=<UI1L0
+!s100 @[73iMi=`ib7DoR>h89GJ2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
