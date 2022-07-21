@@ -1,3 +1,3 @@
 # DigitalDesignVHDL-EE214
 
-## Lab Course Project
+## Lab Course Projects
